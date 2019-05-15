@@ -8,6 +8,7 @@ let pool = mysql.createPool($dbConfig.mysql);
  * 对query执行的结果自定义返回JSON结果
  */
 function responseDoReturn(res, result,resultJSON) {
+	console.log(res, result)
 	if(typeof result === 'undefined') {
 		res.json({
 			code:'201',

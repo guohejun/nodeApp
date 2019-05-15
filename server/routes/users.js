@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-let userDao = require('../dao/userDao')
+let userController = require('../controller/userController')
 
 //设置跨域请求头
 router.all('*', function(req, res, next) {
@@ -15,8 +15,9 @@ router.all('*', function(req, res, next) {
 /**
  * 用户增加的路由控制接口
  */
-router.get('/addUserAction', function(req, res, next) {
-	userDao.addUserAction(req,res,next)
+router.post('/createUser', function(req, res, next) {
+	console.log('111111111111')
+	userController.createUser(req,res,next)
 });
 
 module.exports = router;

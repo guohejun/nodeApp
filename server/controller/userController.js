@@ -4,17 +4,19 @@ let $sqlCommands = require('../common/sqlCommands');
 /**
  * 增加用户Action
  */
-function addUserAction(req, res, next){
+function createUser(req, res, next){
 	// 获取前台页面传过来的参数
-	let param = req.query || req.params;
+	console.log('query: ', req.query)
+	console.log('params: ', req.params)
+	let params = req.query || req.params;
 	// 执行Query
-	db.queryArgs($sqlCommands.user_status.insertOne,
-		[param.username,param.password,param.qrcode],
+	db.queryArgs($sqlCommands.user.insertOne,
+		[params.name,params.password,params.age, params.mobile],
 		function(err, result) {
 			if(!err){
 				result = {
 					code: 200,
-					msg:'successful'
+					msg:'操作成功'
 				};
 			}
 			// 以json形式，把操作结果返回给前台页面
@@ -25,5 +27,5 @@ function addUserAction(req, res, next){
 
 // exports
 module.exports = {
-	addUserAction: addUserAction
+	createUser
 };

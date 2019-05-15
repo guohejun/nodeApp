@@ -1,4 +1,8 @@
 module.exports = {
+  devServer: {
+    port: 9001
+  },
+  filenameHashing: false,
   publicPath: './',
   productionSourceMap: process.env.NODE_ENV !== 'development',
   outputDir: 'dist',

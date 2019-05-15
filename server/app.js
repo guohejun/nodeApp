@@ -17,12 +17,12 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use('/m', express.static(path.join(__dirname, 'webapp/mobile')));
+app.use('/app', express.static(path.join(__dirname, 'webapp/mobile')));
 app.use('/mall', express.static(path.join(__dirname, 'webapp/mall')));
 
 // 匹配接口路由
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
+app.use('/user', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
