@@ -19,6 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use('/app', express.static(path.join(__dirname, 'webapp/mobile')));
 app.use('/mall', express.static(path.join(__dirname, 'webapp/mall')));
+app.use('/mall-by-react', express.static(path.join(__dirname, 'webapp/mall-by-react')));
 
 // 匹配接口路由
 app.use('/', indexRouter);

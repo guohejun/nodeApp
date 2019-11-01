@@ -1,0 +1,240 @@
+{
+  "id": "1473274",
+  "name": "mall-by-react",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "使用react技术构建的商城demo",
+  "glyphs": [
+    {
+      "icon_id": "270835",
+      "name": "旺旺",
+      "font_class": "kefu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "429242",
+      "name": "对号",
+      "font_class": "choose",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "749780",
+      "name": "收藏",
+      "font_class": "heart_fill",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "828810",
+      "name": "脚印 足迹 访客",
+      "font_class": "history",
+      "unicode": "e87e",
+      "unicode_decimal": 59518
+    },
+    {
+      "icon_id": "877601",
+      "name": "店铺",
+      "font_class": "store",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "877602",
+      "name": "店铺",
+      "font_class": "store_fill",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "940374",
+      "name": "金币",
+      "font_class": "money",
+      "unicode": "e699",
+      "unicode_decimal": 59033
+    },
+    {
+      "icon_id": "1311621",
+      "name": "积分",
+      "font_class": "coin",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "1311630",
+      "name": "讨论",
+      "font_class": "news",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "1418246",
+      "name": "游戏",
+      "font_class": "game",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1788116",
+      "name": "选中",
+      "font_class": "choose_fill",
+      "unicode": "e766",
+      "unicode_decimal": 59238
+    },
+    {
+      "icon_id": "1800905",
+      "name": "close",
+      "font_class": "close_circle",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "2160433",
+      "name": "箭头",
+      "font_class": "arrow_circle",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "2222573",
+      "name": "修改",
+      "font_class": "edit",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "2462921",
+      "name": "我的订单",
+      "font_class": "order",
+      "unicode": "e6e6",
+      "unicode_decimal": 59110
+    },
+    {
+      "icon_id": "2673807",
+      "name": "地址",
+      "font_class": "position",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "3059042",
+      "name": "向上",
+      "font_class": "back_top",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "3073908",
+      "name": "连连看楼层",
+      "font_class": "link_up",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "4070669",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "4120536",
+      "name": "收货地址",
+      "font_class": "address",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "4233677",
+      "name": "日期",
+      "font_class": "date",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "5203251",
+      "name": "关闭",
+      "font_class": "close",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5236956",
+      "name": "下 拉",
+      "font_class": "xiala_up",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "5255244",
+      "name": "关于我们",
+      "font_class": "about_us",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "5270852",
+      "name": "收 藏-产品详情",
+      "font_class": "heart",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "5524673",
+      "name": "404",
+      "font_class": "not_found",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "5587638",
+      "name": "退出",
+      "font_class": "exit",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "5748699",
+      "name": "下 拉",
+      "font_class": "xiala_down",
+      "unicode": "e902",
+      "unicode_decimal": 59650
+    },
+    {
+      "icon_id": "5859450",
+      "name": "搜索",
+      "font_class": "search",
+      "unicode": "e6aa",
+      "unicode_decimal": 59050
+    },
+    {
+      "icon_id": "6548532",
+      "name": "返回",
+      "font_class": "back",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "6551501",
+      "name": "待开发",
+      "font_class": "undevelop",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    },
+    {
+      "icon_id": "7008906",
+      "name": "collection_fill",
+      "font_class": "collect",
+      "unicode": "e6ea",
+      "unicode_decimal": 59114
+    },
+    {
+      "icon_id": "8361782",
+      "name": "分享",
+      "font_class": "share",
+      "unicode": "e6c1",
+      "unicode_decimal": 59073
+    }
+  ]
+}
