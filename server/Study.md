@@ -19,4 +19,26 @@
 ##### 4.LINUX命令---创建新文件
 1. ```cat >> new.txt```，输入内容，按Ctr+d结束输入。
 2.```touch new.txt```,直接创建一个新文件。
-3.test
+
+##### 5.LINUX命令---查看系统信息
+1、# uname －a （Linux查看版本当前操作系统内核信息）
+
+2、# cat /proc/version （Linux查看当前操作系统版本信息）
+
+3、# cat /etc/issue 或 cat /etc/redhat-release （Linux查看版本当前操作系统发行版信息）
+
+4、# cat /proc/cpuinfo （Linux查看cpu相关信息，包括型号、主频、内核信息等）
+
+5、# getconf LONG_BIT （Linux查看版本多少位）
+
+6、# lsb_release -a （CentOS 6.9版本需要安装lsb，CentOS 7.0以上直接可以使用，网上都说Linux都支持，我只验证过CentOS系统）
+
+##### 6.https://www.vultr.com/register/
+1.账号：13866288016@163.com
+2.密码：Ghj1881280
+
+
+##### 7.dockerHub
+1.账号：guohejun
+2.密码：GHJ188128
+3.邮件：13866288016@163.com

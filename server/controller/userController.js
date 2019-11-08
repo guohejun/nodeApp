@@ -10,7 +10,7 @@ function createUser(req, res, next){
 	console.log('params: ', req.params)
 	let params = req.query || req.params;
 	// 执行Query
-	db.queryArgs($sqlCommands.user.insertOne,
+	db.queryArgs($sqlCommands.tableUser.insertOne,
 		[params.name,params.password,params.age, params.mobile],
 		function(err, result) {
 			if(!err){

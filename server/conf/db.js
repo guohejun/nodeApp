@@ -1,10 +1,10 @@
 module.exports = {
 	mysql: {
-		// host: '106.12.145.110',
-		host: 'localhost',
+		host: '106.12.145.110',
+		// host: 'localhost',
 		user: 'root',
-		password: '123456',
-		database: 'node_app_db',
+		password: 'Ghj@188128',
+		database: 'node_app',
 		port: '3306',
 	}
 }

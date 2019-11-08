@@ -16,7 +16,6 @@ router.all('*', function(req, res, next) {
  * 用户增加的路由控制接口
  */
 router.post('/createUser', function(req, res, next) {
-	console.log('111111111111')
 	userController.createUser(req,res,next)
 });
 

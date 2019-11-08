@@ -5,7 +5,8 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
-const usersRouter = require('./routes/users');
+const usersRouter = require('./routes/usersRouter');
+const gameOpenCardRouter = require('./routes/gameOpenCardsRouter');
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use('/mall-by-react', express.static(path.join(__dirname, 'webapp/mall-by-re
 // 匹配接口路由
 app.use('/', indexRouter);
 app.use('/user', usersRouter);
+app.use('/gameOpenCard', gameOpenCardRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
