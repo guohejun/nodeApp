@@ -6,22 +6,22 @@ var gameOpenCardLevel = db.define(
 		id:{
 			filed:'id',
 			primaryKey:true,
-			type:Sequelize.BIGINT,
+			type:Sequelize.INTEGER,
 			allowNull: false
 		},
 		level: {
 			field: 'level',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		name: {
 			field: 'name',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		color: {
 			field: 'color',
-			type: Sequelize.DATE,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 	},

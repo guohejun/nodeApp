@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-let userController = require('../controller/userController')
+let userController = require('../controller/UserController');
 
 //设置跨域请求头
 router.all('*', function(req, res, next) {
@@ -12,11 +12,16 @@ router.all('*', function(req, res, next) {
 	next();
 });
 
-/**
- * 用户增加的路由控制接口
- */
-router.post('/createUser', function(req, res, next) {
-	userController.createUser(req,res,next)
+router.post('/register', function(req, res, next) {
+	userController.register(req,res,next)
+});
+
+router.post('/login', function(req, res, next) {
+	userController.login(req,res,next)
+});
+
+router.get('/userDetail', function(req, res, next) {
+	userController.userDetail(req,res,next)
 });
 
 module.exports = router;

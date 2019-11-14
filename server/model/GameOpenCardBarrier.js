@@ -6,57 +6,57 @@ var gameOpenCardBarrier = db.define(
 		id:{
 			filed:'id',
 			primaryKey:true,
-			type:Sequelize.BIGINT,
+			type:Sequelize.INTEGER,
 			allowNull: false
 		},
 		level: {
 			field: 'level',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		barrier: {
 			field: 'barrier',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		grid_num: {
 			field: 'grid_num',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		max_step: {
 			field: 'max_step',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		headerBackgroundColor: {
 			field: 'headerBackgroundColor',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		headerColor: {
 			field: 'headerColor',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		pageBackgroundColor: {
 			field: 'pageBackgroundColor',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		pageColor: {
 			field: 'pageColor',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		gridBackgroundColor: {
 			field: 'gridBackgroundColor',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 		gridColor: {
 			field: 'gridColor',
-			type: Sequelize.STRING,
+			type: Sequelize.CHAR,
 			allowNull: false
 		},
 	},

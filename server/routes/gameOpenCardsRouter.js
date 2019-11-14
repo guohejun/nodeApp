@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-let gameOpenCardController = require('../controller/gameOpenCardController')
+let gameOpenCardController = require('../controller/GameOpenCardController')
 
 //设置跨域请求头
 router.all('*', function(req, res, next) {
