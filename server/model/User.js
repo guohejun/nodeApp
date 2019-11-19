@@ -34,6 +34,14 @@ var user = db.define(
 			type: Sequelize.CHAR,
 			allowNull: false
 		},
+		avatar: {
+			field: 'avatar',
+			type: Sequelize.CHAR,
+		},
+		coinNum: {
+			field: 'coinNum',
+			type: Sequelize.CHAR,
+		},
 	},
 	{
 		freezeTableName: true

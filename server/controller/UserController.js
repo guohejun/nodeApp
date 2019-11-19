@@ -35,8 +35,18 @@ class UserController extends DoReturn {
 			msg = "昵称不能为空！";
 			return this.doReturn(res, {code, msg});
 		}
+		if (!params.age) {
+			msg = "年龄不能为空！";
+			return this.doReturn(res, {code, msg});
+		}
 		if (!params.gender) {
 			params.gender = "0";
+		}
+		if (!params.coinNum) {
+			params.coinNum = "0";
+		}
+		if (!params.avatar) {
+			params.avatar = "https://zos.alipayobjects.com/rmsportal/PZUUCKTRIHWiZSY.jpeg";
 		}
 
 		let data = await User.findOne({where: {login: params.login}}).catch(err => {
@@ -55,7 +65,7 @@ class UserController extends DoReturn {
 				});
 				code = create ? 200 : 400;
 				msg = create ? "注册成功！" : "注册失败，请联系管理员！";
-				return this.doReturn(res, {code, data, msg, error});
+				return this.doReturn(res, {code, data: create, msg, error});
 			})();
 		} else {
 			code = 400;
