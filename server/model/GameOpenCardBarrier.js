@@ -1,7 +1,7 @@
 var db = require('./db');
 
 var gameOpenCardBarrier = db.define(
-	'game_open_card_barrier',
+	'card_barrier',
 	{
 		id:{
 			filed:'id',

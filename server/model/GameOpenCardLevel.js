@@ -1,7 +1,7 @@
 var db = require('./db');
 
 var gameOpenCardLevel = db.define(
-	'game_open_card_level',
+	'card_level',
 	{
 		id:{
 			filed:'id',

@@ -1,6 +1,6 @@
 var db = require('./db');
 var userCardProgress = db.define(
-	'user_card_progress',
+	'user_card_level_barrier',
 	{
 		id: {
 			filed: 'id',
